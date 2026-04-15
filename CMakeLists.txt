@@ -11,7 +11,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SimpleMessage.msg"
-  "srv/DebugPrint.srv""
+  "srv/DebugPrint.srv"
   "srv/NavigationMoveToPoint.srv"
   "srv/NavigationStop.srv"
   "srv/TimerStart.srv"
