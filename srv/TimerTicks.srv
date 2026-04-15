@@ -3,4 +3,4 @@ bool run_ticks
 bool run_ticks_1sec
 bool run_ticks_1min
 ---
-book ok
+bool ok
