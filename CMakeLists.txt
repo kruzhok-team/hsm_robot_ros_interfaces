@@ -17,6 +17,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/TimerStart.srv"
   "srv/TimerStop.srv"
   "srv/TimerTicks.srv"
+  "srv/WheelsStop.srv"
+  "srv/WheelsForward.srv"
+  "srv/WheelsBack.srv"
+  "srv/WheelsTurnRight.srv"
+  "srv/WheelsTurnLeft.srv"
   DEPENDENCIES geometry_msgs 
 )
 
