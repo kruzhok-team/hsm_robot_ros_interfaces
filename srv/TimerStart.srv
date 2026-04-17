@@ -1,5 +1,5 @@
-# Timeout in milliseconds
-uint64 timeout
+# Timeout in seconds (float)
+float64 timeout
 # Auto-repeat flag
 bool   repeat
 ---
