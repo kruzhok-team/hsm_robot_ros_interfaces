@@ -4,7 +4,7 @@
 int16 MSG_TIMER_TICK =                    11
 int16 MSG_TIMER_TICK_1S =                 12 
 int16 MSG_TIMER_TICK_1M =                 13
-int16 MSG_TIMER_ELAPSED =                 14
+# MSG_TIMER_ELAPSED -> string arg msg    (14)
 
 # Navigation module
 int16 MSG_NAVIGATION_PATH_FOUND =         21

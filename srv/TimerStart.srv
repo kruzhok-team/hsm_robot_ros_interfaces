@@ -2,5 +2,6 @@
 float64 timeout
 # Auto-repeat flag
 bool   repeat
+string name
 ---
 bool ok
