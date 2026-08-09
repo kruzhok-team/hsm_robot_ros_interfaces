@@ -1,0 +1,6 @@
+# The storage name
+string name
+# The numeric point to save
+float64[] point
+---
+bool ok

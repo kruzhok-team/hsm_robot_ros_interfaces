@@ -1,0 +1,6 @@
+# The storage name
+string name
+# The initial numeric array
+float64[] array
+---
+bool ok

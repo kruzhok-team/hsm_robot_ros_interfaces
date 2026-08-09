@@ -1,0 +1,8 @@
+# The storage name
+string name
+---
+bool ok
+# The stored numeric arrays flattened into a single sequence
+float64[] data
+# The length of every stored array, in order
+int32[] lengths
