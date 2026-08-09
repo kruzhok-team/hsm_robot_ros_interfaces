@@ -24,7 +24,15 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/WheelsBack.srv"
   "srv/WheelsTurnRight.srv"
   "srv/WheelsTurnLeft.srv"
-  DEPENDENCIES geometry_msgs 
+  DEPENDENCIES geometry_msgs
 )
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the sources carry hand-written licence headers that ament_copyright does not
+  # recognise, and the package intentionally ships no CONTRIBUTING.md
+  set(ament_cmake_copyright_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
 
 ament_package()
