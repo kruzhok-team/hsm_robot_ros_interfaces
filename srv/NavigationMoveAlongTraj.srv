@@ -1,0 +1,4 @@
+# The trajectory points, in order
+geometry_msgs/PoseStamped[] poses
+---
+bool ok

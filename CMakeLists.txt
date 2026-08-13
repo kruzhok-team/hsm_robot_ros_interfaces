@@ -15,6 +15,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/NumberArgMessage.msg"
   "srv/DebugPrint.srv"
   "srv/NavigationMoveToPoint.srv"
+  "srv/NavigationMoveAlongTraj.srv"
   "srv/NavigationStop.srv"
   "srv/PumpTurnOn.srv"
   "srv/PumpTurnOff.srv"
